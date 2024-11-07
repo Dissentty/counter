@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+.myButtonPlus {
+  background-color: #4CAF50; /* Зеленый */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'JetBrains Mono', bold;
+}
+
+.myButtonPlus:hover {
+  background-color: #45a049; 
+}
+
+.myButtonMinus {
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'JetBrains Mono', bold;
+}
+
+.myButtonMinus:hover {
+  background-color: crimson; 
+}
+
+p {
+  font-family: 'JetBrains Mono', monospace;
+}
